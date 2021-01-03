@@ -84,3 +84,27 @@
             overflow:hidden;
         }
 }
+@media screen and (max-width:386px){
+    .container{
+        max-width: 377px;
+        text-align: justify;
+    }
+    .facebook .ftxt h2{
+        font-size: 14px;
+    }
+    .facebook form{
+        text-align:center;
+    }
+    .form-login span{
+        margin-right: 5px;
+    }
+    .fb-footer{
+        margin: 0 auto;
+        width: auto;
+        
+    }
+    .fb-footer ul{
+        display:inline-block;
+        overflow:hidden;
+    }
+}
