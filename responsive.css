@@ -1,0 +1,86 @@
+@media screen and (max-width:980px){
+    .facebook .ftxt h2{
+        margin-right: 10px;
+    }
+    .fb-footer{
+        margin: 0 auto;
+        width: auto;
+    }
+    .fb-footer ul{
+        display: inline-block;
+        overflow:hidden;
+    }
+}
+@media screen and (max-width:768px){
+    .facebook{
+        display: block;
+        margin: 0 auto;
+        max-width: 450px;
+        text-align: center;
+    }
+    .facebook .logo{
+        margin-bottom: 20px;
+    }
+    .facebook .ftxt{
+        margin-bottom: 30px;
+    }
+    .facebook .ftxt h2{
+        font-size: 16px;
+    }
+    .facebook form{
+        text-align: center;
+    }
+    .form-login span{
+        margin-right: 10px;
+    }
+    .container{
+        max-width: 720px;
+        text-align:justify;
+        margin-left: 4%;
+    }
+    .fb-footer{
+        margin: 0 auto;
+        width: auto;
+        padding-left: 2%;
+        
+    }
+    .fb-footer ul{
+        display:inline-block;
+        overflow:hidden;   
+    }   
+}
+@media screen and (max-width:576px){
+    .container{
+        max-width:540px;
+        text-align:justify;
+        margin-left:2%;
+    }
+    .fb-footer{
+        margin: 0 auto;
+        width: auto;
+        
+    }
+    .fb-footer ul{
+        display:inline-block;
+        overflow:hidden;
+    }
+}
+@media screen and (max-width:486px){
+    .container{
+            max-width:450px;
+            text-align:justify;
+            margin-left:2%;
+        }
+        .facebook form{
+            text-align: center;
+        }
+        .fb-footer{
+            margin: 0 auto;
+            width: auto;
+            
+        }
+        .fb-footer ul{
+            display:inline-block;
+            overflow:hidden;
+        }
+}
